@@ -1,0 +1,25 @@
+.ChannelPage {
+    display: flex;
+}
+
+.ChannelPage-video-content {
+    display: flex;
+    flex: 3 3;
+    flex-direction: column;
+}
+
+.ChannelPage-video-playlist-content {
+    display: flex;
+    flex: 0 0 auto;
+    overflow-y: scroll;
+    border-left: .0625em solid #e3e8e9;
+    height: 90vh;
+    min-width: 250px;
+}
+
+.ChannelPage-video-playlist-content li {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
